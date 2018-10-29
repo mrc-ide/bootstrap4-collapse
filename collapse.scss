@@ -1,0 +1,13 @@
+$enable-transitions:        true !default;
+$transition-base:             all .2s ease-in-out !default;
+$transition-fade:             opacity .15s linear !default;
+$transition-collapse:         height .35s ease !default;
+$btn-transition:              color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out !default;
+$input-transition:                      border-color .15s ease-in-out, box-shadow .15s ease-in-out !default;
+$custom-forms-transition:               background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out !default;
+$modal-transition:                  transform .3s ease-out !default;
+$progress-bar-transition:           width .6s ease !default;
+$carousel-transition:               transform .6s ease !default; // Define transform transition first if using multiple transitions (e.g., `transform 2s ease, opacity .5s ease-out`)
+
+@import "node_modules/bootstrap/scss/mixins/transition";
+@import "node_modules/bootstrap/scss/_transitions";
