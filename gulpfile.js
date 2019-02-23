@@ -31,5 +31,4 @@ gulp.task('js', function () {
         .pipe(gulp.dest('./dist/js'));
 });
 
-gulp.task('build', ['sass', 'js'], function () {
-});
+gulp.task('build', gulp.parallel('sass', 'js'))
