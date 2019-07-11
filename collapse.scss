@@ -8,6 +8,7 @@ $custom-forms-transition:               background-color .15s ease-in-out, borde
 $modal-transition:                  transform .3s ease-out !default;
 $progress-bar-transition:           width .6s ease !default;
 $carousel-transition:               transform .6s ease !default; // Define transform transition first if using multiple transitions (e.g., `transform 2s ease, opacity .5s ease-out`)
+$enable-prefers-reduced-motion-media-query:   true !default;
 
 @import "node_modules/bootstrap/scss/mixins/transition";
 @import "node_modules/bootstrap/scss/_transitions";
